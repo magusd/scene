@@ -1,3 +1,16 @@
+--
+-- scene
+--
+-- To upgrade/restore run:
+-- curl -O https://raw.githubusercontent.com/magusd/scene/refs/heads/main/scene.lua
+--
+-- Example main.lua
+-- local scene = require "scene"
+--
+-- function love.load()
+--     scene.set("splash")
+-- end
+
 local scene = {}
 local callbacks = {
     "audiodisconnected",
